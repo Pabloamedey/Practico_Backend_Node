@@ -19,7 +19,7 @@ function App() {
             ⬅️ Volver al Home
           </NavLink>
           <NavLink to="/usuarios" className={({ isActive }) => (isActive ? "active" : "")}>
-            🦄 Usuarios
+            🧍🧍 Usuarios
           </NavLink>
           <NavLink to="/productos" className={({ isActive }) => (isActive ? "active" : "")}>
             🛒 Productos
@@ -33,9 +33,9 @@ function App() {
             element={
               <div className="home-page">
                 <div className="home-overlay">
-                  <h1>Bienvenido a Mundo Usuarios 🦄</h1>
+                  <h1>Bienvenido a Mundo Usuarios 🧍🧍</h1>
                   <div className="buttons" style={{ display: 'flex', gap: '2rem', flexWrap: 'wrap', justifyContent: 'center', marginTop: '2rem' }}>
-                    <NavLink to="/usuarios" className="btn btn-unicorn">🦄 Ver Usuarios</NavLink>
+                    <NavLink to="/usuarios" className="btn btn-unicorn">🧍🧍 Ver Usuarios</NavLink>
                     <NavLink to="/productos" className="btn btn-products">🛒 Ver Productos</NavLink>
                   </div>
                 </div>
